@@ -17,7 +17,6 @@ int main() {
 	int *dev_c = NULL;
 	int size = 10;
 
-
 	a = (int *) malloc(sizeof(int) * size);
 	b = (int *) malloc(sizeof(int) * size);
 	c = (int *) malloc(sizeof(int) * size);
@@ -42,7 +41,6 @@ int main() {
 	printf("Your result vector is: \n");
 	for(int i = 0; i < size; i++)
 		printf("c[%d] = %d\n", i, c[i]);
-
 
 	free(a);
 	free(b);
